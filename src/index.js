@@ -24,9 +24,9 @@ root.render(
   <ChakraProvider theme={theme}> 
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="patient-form/" element={<View1/>} />
-        <Route path="patient-form/view2" element={<View2/>} />
-        <Route path="patient-form/view3" element={<View3/>} />
+        <Route path="/" element={<View1/>} />
+        <Route path="/view2" element={<View2/>} />
+        <Route path="/view3" element={<View3/>} />
       </Routes>
     </BrowserRouter>
   </ChakraProvider>  
