@@ -22,7 +22,7 @@ const root = createRoot(container);
 // /view3
 root.render(
   <ChakraProvider theme={theme}> 
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={"/patient-form"}>
       <Routes>
         <Route path="/" element={<View1/>} />
         <Route path="/view2" element={<View2/>} />
