@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/patient-form/static/js/main.d67ee491.js",
+    "index.html": "/patient-form/index.html",
+    "main.d67ee491.js.map": "/patient-form/static/js/main.d67ee491.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d67ee491.js"
+  ]
+}
